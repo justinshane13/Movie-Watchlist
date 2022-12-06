@@ -228,7 +228,9 @@ hr {
     .header {
         display: flex;
         justify-content: space-around;
+
         padding: 30px 30px;
+        height: 100px;
         align-items: center;
         background-image: url("./images/THJJRUhNlEc.png");
         background-size: cover;
