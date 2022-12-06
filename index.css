@@ -223,3 +223,222 @@ hr {
     width: 462px;
     color: #E5E7EB
 }
+
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 30px;
+        align-items: center;
+        background-image: url("./images/THJJRUhNlEc.png");
+        background-size: cover;
+        background-color: #0E0E0E;
+        color: white;
+    }
+    
+    .page-title {
+        font-family: Inter;
+        font-size: 30px;
+        line-height: 24px;
+        letter-spacing: -0.045em;
+    }
+    
+    .toggle-button {
+        cursor: pointer;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .search-form {
+        background: white;
+        border: 1px solid #D1D5DB;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -14px;
+    }
+    
+    .search-input {
+        width: 70%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        color: #6B7280;
+        border: 1px solid #D1D5DB;
+        border-radius: 6px 0px 0px 6px;
+        background: white url("./images/Search-Icon.png") no-repeat 10px;
+        background-size: 4%;
+        padding: 3px 3px 3px 30px;
+    }
+    
+    .search-button {
+        width: 30%;
+        background: #F9FAFB;
+        border: 1px solid #D1D5DB;
+        box-sizing: border-box;
+        border-radius: 0px 6px 6px 0px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    
+    .film-reel {
+        width: 50px;
+        margin-top: 50px;
+    }
+    
+    .start-exploring {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #DFDDDD;
+    }
+    
+    .no-results {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #DFDDDD;
+        width: 330px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .recommendations {
+        display: flex;
+        justify-content: center;
+        width: 350px;
+        height: 190px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 44px;
+        border-bottom: 1.5px solid #E5E7EB
+    }
+    
+    .poster {
+        height: 117px;
+        width: 79px;
+        border-radius: 3px;
+    }
+    
+    .movie-info-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+        margin-left: 16px;
+        text-align: left;
+        justify-content: top;
+    }
+    
+    .first-row {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        height: 18px;
+    }
+    
+    .title {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+        max-width: 200px;
+        margin-bottom: 0px;
+    }
+    
+    .star {
+        height: 10px;
+        margin-left: 2px;
+        margin-top: 10px;
+    }
+    
+    .rating {
+        margin-left: 5px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    
+    .second-row {
+        display: flex;
+        align-items: center;
+        font-family: Inter;
+        font-size: 12px;
+        height: 12px;
+        margin-top: 30px;
+    }
+    
+    .genre {
+        margin-left: 15px;
+    }
+    
+    .add-btn {
+        height: 16px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    
+    .watchlist-btn {
+        margin-left: 5px;
+    }
+    
+    .description {
+        font-family: Inter;
+        font-size: 12px;
+        line-height: 20px;
+        color: #6B7280;
+        margin-top: 16px;
+        width: 250px;
+    }
+    
+    .watchlist-empty {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #DFDDDD;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    
+    .add-movies {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #363636;
+    }
+    
+    .index-link {
+        margin-top: 5px;
+    }
+    
+    hr {
+        width: 462px;
+        color: #E5E7EB
+    }
+}
