@@ -330,6 +330,7 @@ hr {
         margin-left: auto;
         margin-right: auto;
         margin-top: 44px;
+        padding-bottom: 40px;
         border-bottom: 1.5px solid #E5E7EB
     }
     
@@ -343,14 +344,14 @@ hr {
         display: flex;
         flex-direction: column;
         padding: 1px;
-        margin-left: 16px;
+        margin-left: 14px;
         text-align: left;
         justify-content: top;
     }
     
     .first-row {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         margin-top: 0px;
         height: 18px;
     }
@@ -362,17 +363,18 @@ hr {
         color: #000000;
         max-width: 200px;
         margin-bottom: 0px;
+        margin-top: 0px;
     }
     
     .star {
         height: 10px;
-        margin-left: 2px;
-        margin-top: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
     }
     
     .rating {
-        margin-left: 5px;
-        margin-top: 20px;
+        margin-left: 10px;
+        margin-top: 0px;
         font-size: 12px;
     }
     
@@ -386,12 +388,12 @@ hr {
     }
     
     .genre {
-        margin-left: 15px;
+        margin-left: 16px;
     }
     
     .add-btn {
         height: 16px;
-        margin-left: 20px;
+        margin-left: 6px;
         cursor: pointer;
     }
     
@@ -405,7 +407,7 @@ hr {
         line-height: 20px;
         color: #6B7280;
         margin-top: 16px;
-        width: 250px;
+        width: 240px;
     }
     
     .watchlist-empty {
